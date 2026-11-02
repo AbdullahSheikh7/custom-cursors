@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: none;
+}
+
+.cursor {
+  position: fixed;
+  display: grid;
+  place-items: center;
+}
+
+.cursor .outline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 48px;
+  width: 48px;
+  border: 1px solid black;
+  border-radius: 50%;
+  translate: -50% -50%;
+}
+
+.cursor .center {
+  translate: -50% -50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8px;
+  width: 8px;
+  background: black;
+  border-radius: 50%;
+}
